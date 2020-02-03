@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloService {
 	
-	public String getName(String name) {
-		return name;
+	public String getName() {
+		return "chillgu";
 	}
 }

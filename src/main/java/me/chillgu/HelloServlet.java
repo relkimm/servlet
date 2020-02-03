@@ -30,7 +30,7 @@ public class HelloServlet extends HttpServlet {
 		resp.getWriter().println("<html>");
 		resp.getWriter().println("<head>");
 		resp.getWriter().println("<body>");
-		resp.getWriter().println("Hello Servlet!" + service.getName("chilloutgu"));
+		resp.getWriter().println("Hello Servlet!" + service.getName());
 		resp.getWriter().println("</body>");
 		resp.getWriter().println("</head>");
 		resp.getWriter().println("</html>");

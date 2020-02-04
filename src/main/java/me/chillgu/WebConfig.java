@@ -22,6 +22,9 @@ public class WebConfig {
 		RequestMappingHandlerMapping handlerMapping = 
 						new RequestMappingHandlerMapping();
 		
+		handlerMapping.setInterceptors();
+		handlerMapping.setOrder(Ordered.HIGHEST_PRECEDENCE);
+		
 		return handlerMapping;
 	}
 	
